@@ -7,4 +7,47 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh" />
+
+    <TextView
+        android:id="@+id/labelWJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Weather JSON"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewJSON"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@drawable/border"
+        android:scrollbars="vertical"
+        android:text="Weather JSON Will appear here" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Description"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/descriptionView"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 </LinearLayout>
